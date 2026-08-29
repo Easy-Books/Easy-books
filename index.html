@@ -73,7 +73,10 @@ button {
         وبناء برنامج تدريبي بشكل مبسط.
     </p>
 
-    <div class="price">$9.99</div>
+    <div class="price">
+  <span class="old-price">$9.99</span>
+  <span class="new-price">$3.99</span>
+</div>
 
     <button>شراء الآن</button>
 </div>
@@ -89,7 +92,18 @@ button {
 
   <a href="https://wa.me/966564201575" class="social" target="_blank">💬 WhatsApp</a>
 </div>
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 22px;
+  margin-right: 10px;
+}
 
+.new-price {
+  color: #f5c542;
+  font-size: 36px;
+  font-weight: bold;
+}
 <style>
 .social-links {
   position: fixed;
